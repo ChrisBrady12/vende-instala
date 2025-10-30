@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  font-family: 'Montserrat', sans-serif;
+}
+/* Contenedor principal */
+.container {
+  position: relative;
+  min-height: 100vh;
+  background-color: black;
+  text-align: center;
+}
+/* Título y enlace */
+.container h1 {
+  color:#009da3;
+  padding: 15px;
+  font-size: 27px;
+}
+
+.container h2 {
+  color: rgb(255, 255, 255);
+  padding: 25px;
+  font-size: 16px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+/* Imágenes superiores */
+#img1 {
+  height: 7vh;
+  margin-top: 15px;
+  max-width: 100%;
+}
+
+#ventas {
+  color: #ec0081;
+}
+
+#a {
+  color: #ec0081;
+}
